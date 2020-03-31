@@ -1,0 +1,14 @@
+﻿@model List<AlunosCompeticao>;
+
+<div class="container">
+    
+    @foreach (var item in Model)
+    {
+
+        <div  class="row bg-light mt-1">
+            <div class="col"><span>@item.Nome</span></div>
+        </div>
+
+    }
+
+</div>
